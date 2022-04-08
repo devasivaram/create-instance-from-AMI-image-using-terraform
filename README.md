@@ -62,6 +62,9 @@ env = prod
 
 ![image](https://user-images.githubusercontent.com/100773863/162455746-6fc77274-e5bc-4492-afe7-f9bdeef36edb.png)
 
+![image](https://user-images.githubusercontent.com/100773863/162464068-39d2a2ab-d132-468d-a53f-1ed42cb94167.png)
+
+
 You can use any tags as you like, but please remember those tags, because we use these tags for setting filters in terraform.
 
 ## Step 4
@@ -176,7 +179,13 @@ Lets apply the above architecture to the AWS.
 terraform apply
 ```
 
-Conclusion
+Now the instance is created from AMI image using terraform:
+
+![image](https://user-images.githubusercontent.com/100773863/162464330-c05a51d8-5962-439b-a67f-a7fd5a74c547.png)
+ 
+
+## Conclusion
+
 This is a simple EC2 creation from AMI image using terraform with filter. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
 
 
