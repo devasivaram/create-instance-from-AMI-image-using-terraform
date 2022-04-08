@@ -12,7 +12,7 @@ resource "aws_instance"  "myapp-instance" {
 resource "aws_key_pair" "devopsnew" {
 
   key_name = "devopsnew1"
-  public_key = file("path to key.pub")
+  public_key = file("path to your key.pub")
   tags = {
     Name = "devopsnew1"
   }
