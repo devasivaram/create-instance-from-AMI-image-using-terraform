@@ -139,7 +139,7 @@ resource "aws_instance"  "myapp-instance" {
   ami                     =    data.aws_ami.myapp-ami.id
   instance_type           =    "t2.micro"
   key_name                =    aws_key_pair.devopsnew.id
-  vpc_security_group_ids  =    ["sg-0751dd58a493dd19a"]
+  vpc_security_group_ids  =    ["add your sec.grp ID"]
   tags = {
     Name = "myapp"
   }
