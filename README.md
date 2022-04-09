@@ -1,4 +1,4 @@
-# create-instance-from-AMI-image-using-terraform
+# Create-instance-from-AMI-image-using-terraform
 
 ## Description
 
@@ -18,7 +18,7 @@ If you need to download terraform , then click here [Terraform](https://www.terr
 
 ## Step 1
 
-Create an and EC2 instance with name tage "template", once the instance is successfully lauched, we get into the instance and install HTTPD and PHP to the instance.
+Create an and EC2 instance with name tag "template", once the instance is successfully lauched, we get into the instance and install HTTPD and PHP to the instance.
 
 ![image](https://user-images.githubusercontent.com/100773863/162455135-7c999ad2-9db9-4913-b35c-b81867b1e7ca.png)
 
@@ -35,7 +35,7 @@ amazon-linux-extra install php7.4 -y
 ## Step 2
 
 Now, we need to add an sample HTML template to the instance and attach to document root, you can use this link for getting [sample HTML](https://www.tooplate.com/) . 
-Here we download the template to /var/website/ location.
+Here we downloaded the template to /var/website/ location.
 
 > To get sample HTML template
 
